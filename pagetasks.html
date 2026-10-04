@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Dashboard & Task</title>
+</head>
+<body>
+    <header>
+    <h1> Task Tracker Dashboard </h1>
+    <p> Manage your daily tasks and view your work progress . </p>
+    <nav>
+     <a href="#dashboard"> Dashboard </a>
+     <a href="#mytasks"> My tasks </a>
+     <a href="#settings"> Settings </a>
+    </nav>
+    </header>
+    <section id="dashboard">
+        <h2> User Profile </h2>
+        <h3> Karim Eldeeb </h3>
+        <p> Full-stack-developer </p>
+        <ul> 
+            <li> Completed Tasks : 12 </li>
+            <li> Pending Tasks : 4 </li>
+            <li> Hours Worked : 35 Hours </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2> Add New Task</h2>
+    <form>
+
+        <div>
+        <label for="taskname" > Task Name </label>
+        <input id="taskname" type="text" placeholder="enter a task name">
+        </div>
+        <br>
+        <div>
+        <label >Category:</label> 
+        <select>
+            <option value="work">Work</option>
+            <option value="study">Study</option>
+            <option value="personal">Personal</option>
+        </select>
+        </div>
+
+        <h3> Select the task priority </h3>
+
+        <div>
+        <input type="radio" id="hgh" name="priority" value="high" >
+        <label for="hgh">high</label>
+        </div>
+
+        <div>
+        <input type="radio" id="med" name="priority" value="medium" >
+        <label for="med">medium </label>
+        </div>
+
+        <div>
+        <input type="radio" id="lo" name="priority"  value="low">
+        <label for="lo">low</label>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="date">Due Date</label>
+        <br>
+        <br>
+        <input id="date"  type="datetime-local">
+        </div>
+    </form>
+    </section>
+    <section id="mytasks">
+        <h2> Daily Tasks </h2>
+        <table border="1">
+            <thead> 
+                <tr>
+                <th> Task name </th>
+                <th> Category </th>
+                <th> Priority </th>
+                <th> Status  </th> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td> learn python </td>
+                <td> study </td>
+                <td> high </td>
+                <td> complete </td>
+                </tr>
+                <tr>
+                <td> learn html </td>
+                <td> study </td>
+                <td> high </td>
+                <td> complete </td>
+                </tr>
+                <tr>
+                <td> learn css </td>
+                <td> study </td>
+                <td> high </td>
+                <td> in progress </td>
+                </tr>
+                <tr>
+                <td> learn javascript </td>
+                <td> study </td>
+                <td> high </td>
+                <td> pending </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name ="description" content="this is my frist project">
+  <title> My.Projet</title>
+</head>
+<body>
+  <h1> New Project </h1>
+  <p> welcome to my new project </p>
+  <hr>
+  <h2> this is photo</h2>
+  <img width="200" src="Image/HNn7XdZXoAAq2fx.jpeg" alt="this is photo">
+  <hr>
+  <h2> this is audio</h2>
+  <audio controls src="Mp3/انتي صعبانه عليا.mp3"></audio>
+  <hr>
+  <h2> This is video </h2>
+  <video width="400" controls src="my.mp4/VID-20260420-WA0028.mp4"></video>
+  <hr>
+<table border="1"> 
+      <caption> Name Table </caption>
+   <thead>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Gender</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td> Kareem</td>
+    <td> 22 </td>
+    <td> male </td>
+  </tr>
+  <tr>
+    <td> nade</td>
+    <td> 25 </td>
+    <td> famile </td>
+  </tr>
+  <tr>
+    <td> ahmed</td>
+    <td> 20 </td>
+    <td> male </td>
+  </tr>
+  </tbody>
+</table>
+<hr>
+
+<form method="post">
+<fieldset>
+<legend> Login </legend>
+
+<div>
+<label for ="kemo" >user name</label>
+<input id ="kemo" type="text" required name="user_name"> 
+</div>
+
+<div>
+<label for ="karim">password</label>
+<input id ="karim" type="password" required name="password" >
+</div>
+<div>
+<input type="submit" value="enter">
+</div>
+</fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
